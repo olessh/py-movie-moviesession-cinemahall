@@ -13,7 +13,7 @@ def create_movie_session(
     new_movie_session = MovieSession.objects.create(
         show_time=movie_show_time,
         cinema_hall=cinema_hall,
-        movie_id=movie
+        movie=movie
     )
     return new_movie_session
 
